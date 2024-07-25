@@ -2,12 +2,12 @@
   "name": "maduro-comments",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
+    "scripts": {
+      "build": "prisma generate && next build",
+      "dev": "next dev",
+      "start": "next start",
+      "lint": "next lint"
+    },
   "dependencies": {
     "@prisma/client": "^5.17.0",
     "autoprefixer": "^10.4.19",
